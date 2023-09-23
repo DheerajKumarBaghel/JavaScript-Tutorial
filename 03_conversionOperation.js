@@ -16,13 +16,13 @@ console.log(typeof scores)
  const valueinNumber1=Number(scores)
  console.log("Value is ", typeof valueinNumber1, " and it's", valueinNumber1)
 
- /*
+ /* all are used in Number()
  "dog123"=> NaN
  null =>0
  undefined => NaN
  true/false  =>1/0
  1/0  =>  true/false
- "emptyString"/""  => true/false
+ "String"/""  => true/false
  null ==> false
  12   ==> "12"
 

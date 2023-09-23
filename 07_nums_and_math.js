@@ -58,12 +58,17 @@ console.log(Math.min(4,2,1))
 console.log(Math.random()) 
 //Returns a pseudorandom number between 0 and 1(exclusive)
 
-console.log(Math.floor((Math.random()*10)+1))  // gives no. b/w 1 and 10
-
+console.log(Math.floor((Math.random()*10)+1))  // gives no. 1 to 10 include
+console.log(Math.floor(Math.random()*10));   // return 0to9 9including
 const max=20;
 const min =15;
-// i want a no. lie b/w  15 AND 20
-console.log(Math.floor(Math.random()*(max-min)+min ))
+// i want a no. b/w  min amd max(exclude)
+console.log(Math.floor(Math.random()*(max-min))+min)
+
+//i want a no. b/w  min amd max(include)
+console.log(Math.floor(Math.random()*(max-min+1))+min)
+
+
 console.log(Math.sign(0));
 console.log(Math.PI);
 Math.sin(90 * Math.PI / 180);     // returns 1 (the sine of 90 degrees)
